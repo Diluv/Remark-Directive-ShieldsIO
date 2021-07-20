@@ -1,0 +1,47 @@
+{
+  "name": "remark-directive-shieldsio",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "A Remark Directive plugin that adds support for creating shields and badges using ShieldsIO.",
+  "main": "./dist/remark-directive-shieldsio.cjs",
+  "scripts": {
+    "build": "microbundle build",
+    "test": "tape ./src/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diluv/Remark-Directive-ShieldsIO.git"
+  },
+  "keywords": [
+    "remark",
+    "remark-directive",
+    "markdown",
+    "shieldsio",
+    "shields-io",
+    "badges",
+    "unified"
+  ],
+  "dependencies": {
+    "unist-util-visit": "^3.1.0"
+  },
+  "peerDependencies": {
+    "remark": "^13.0.0",
+    "remark-directive": "^1.0.1"
+  },
+  "devDependencies": {
+    "microbundle": "^0.13.3",
+    "tape": "^5.2.2",
+    "remark": "^13.0.0",
+    "remark-directive": "^1.0.1"
+  },
+  "author": "Tyler Hancock (Darkhax)",
+  "license": "LGPL-2.1",
+  "bugs": {
+    "url": "https://github.com/Diluv/Remark-Directive-ShieldsIO/issues"
+  },
+  "homepage": "https://github.com/Diluv/Remark-Directive-ShieldsIO#readme",
+  "source": "src/main/index.js",
+  "exports": "./dist/remark-directive-shieldsio.modern.js",
+  "module": "./dist/remark-directive-shieldsio.module.js",
+  "unpkg": "./dist/remark-directive-shieldsio.umd.js"
+}
